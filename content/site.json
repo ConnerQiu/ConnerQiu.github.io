@@ -1,0 +1,395 @@
+{
+  "name": "Ronghe QIU",
+  "alias": "",
+  "role": "Ph.D. Candidate in Artificial Intelligence",
+  "institution": "Hong Kong University of Science and Technology (Guangzhou)",
+  "location": "Beijing & Guangzhou, China",
+  "email": "rqiu683@connect.hkust-gz.edu.cn",
+  "github": "https://github.com/ConnerQiu",
+  "linkedin": "https://www.linkedin.com/in/conner-qiu-98a81833a/",
+  "lab": "https://precognition.team/",
+  "cv": null,
+  "portrait": "assets/images/portrait.jpg",
+  "portrait_alt": "Portrait of Ronghe QIU",
+  "bio": "I am a Ph.D. candidate in Artificial Intelligence at the Hong Kong University of Science and Technology (Guangzhou), advised by Junwei Liang, who also supervised my M.Phil. research. My research focuses on embodied AI for long-horizon mobile manipulation. I am particularly interested in how robots can reason through complex tasks and generalize to new tasks and environments.",
+  "interests": [
+    "Embodied agents",
+    "Long-horizon mobile manipulation",
+    "Human-centered robotics"
+  ],
+  "news": [
+    {
+      "date": "09 / 2026",
+      "text": "AIDA-OWMM accepted to CoRL 2026.",
+      "status": "Accepted"
+    }
+  ],
+  "publications": [
+    {
+      "id": "look-before-you-move",
+      "year": 2026,
+      "venue": "CoRL",
+      "status": "Accepted",
+      "title": "Look Before You Move: Agent-Interface-Aligned Supervision for Open-World Mobile Manipulation",
+      "authors": [
+        "Ronghe Qiu",
+        "Teli Ma",
+        "Jiaming Zhou",
+        "Zeying Gong",
+        "Yiting He",
+        "Qiang Huang",
+        "Junwei Liang"
+      ],
+      "url": null,
+      "arxiv": null,
+      "project": null,
+      "code": null,
+      "image": null,
+      "image_alt": "Look Before You Move: Agent-Interface-Aligned Supervision for Open-World Mobile Manipulation — research overview"
+    },
+    {
+      "id": "stairway-to-success",
+      "year": 2026,
+      "venue": "IEEE RA-L",
+      "status": "Published",
+      "title": "Stairway to Success: An Online Floor-Aware Zero-Shot Object-Goal Navigation Framework via LLM-Driven Coarse-to-Fine Exploration",
+      "authors": [
+        "Zeying Gong",
+        "Rong Li",
+        "Tianshuai Hu",
+        "Ronghe Qiu",
+        "Lingdong Kong",
+        "Lingfeng Zhang",
+        "Guoyang Zhao",
+        "Yiyi Ding",
+        "Junwei Liang"
+      ],
+      "url": "https://arxiv.org/pdf/2505.23019",
+      "arxiv": "https://arxiv.org/abs/2505.23019",
+      "project": "https://zeying-gong.github.io/projects/ascent/",
+      "code": "https://github.com/Zeying-Gong/ascent",
+      "image": "assets/images/publications/ascent.png",
+      "image_alt": "ASCENT framework for online floor-aware object-goal navigation",
+      "image_source": "https://zeying-gong.github.io/projects/ascent/static/images/compressed/arch_v2.png",
+      "image_source_page": "https://zeying-gong.github.io/projects/ascent/",
+      "image_credit": "ASCENT authors",
+      "image_license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "image_license_label": "CC BY-SA 4.0"
+    },
+    {
+      "id": "cross-task-generalization",
+      "year": 2025,
+      "venue": "NeurIPS",
+      "status": "Published",
+      "title": "Exploring the Limits of Vision-Language-Action Manipulation in Cross-task Generalization",
+      "authors": [
+        "Jiaming Zhou",
+        "Ke Ye",
+        "Jiayi Liu",
+        "Teli Ma",
+        "Zifan Wang",
+        "Ronghe Qiu",
+        "Kun-Yu Lin",
+        "Zhilin Zhao",
+        "Junwei Liang"
+      ],
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/cc92809cd8dfbd035801966ab4896741-Abstract-Conference.html",
+      "arxiv": "https://arxiv.org/abs/2505.15660",
+      "project": "https://jiaming-zhou.github.io/AGNOSTOS/",
+      "code": "https://github.com/jiaming-zhou/X-ICM",
+      "image": "assets/images/publications/x-icm.png",
+      "image_alt": "Exploring the Limits of Vision-Language-Action Manipulation in Cross-task Generalization — research overview",
+      "image_source": "https://jiaming-zhou.github.io/AGNOSTOS/static/images/method_v2.3.png",
+      "image_source_page": "https://jiaming-zhou.github.io/AGNOSTOS/"
+    },
+    {
+      "id": "human-robot-domain",
+      "year": 2025,
+      "venue": "CVPR",
+      "status": "Published",
+      "title": "Mitigating the Human-Robot Domain Discrepancy in Visual Pre-training for Robotic Manipulation",
+      "authors": [
+        "Jiaming Zhou",
+        "Teli Ma",
+        "Kun-Yu Lin",
+        "Zifan Wang",
+        "Ronghe Qiu",
+        "Junwei Liang"
+      ],
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhou_Mitigating_the_Human-Robot_Domain_Discrepancy_in_Visual_Pre-training_for_Robotic_CVPR_2025_paper.html",
+      "arxiv": "https://arxiv.org/abs/2406.14235",
+      "project": "https://jiaming-zhou.github.io/projects/HumanRobotAlign/",
+      "code": "https://github.com/jiaming-zhou/HumanRobotAlign",
+      "image": "assets/images/publications/human-robot-align.jpg",
+      "image_alt": "Mitigating the Human-Robot Domain Discrepancy in Visual Pre-training for Robotic Manipulation — research overview",
+      "image_source": "https://jiaming-zhou.github.io/projects/HumanRobotAlign/static/images/method.jpg",
+      "image_source_page": "https://jiaming-zhou.github.io/projects/HumanRobotAlign/"
+    },
+    {
+      "id": "precognition",
+      "year": 2025,
+      "venue": "ICRA",
+      "status": "Published",
+      "title": "From Cognition to Precognition: A Future-Aware Framework for Social Navigation",
+      "authors": [
+        "Zeying Gong",
+        "Tianshuai Hu",
+        "Ronghe Qiu",
+        "Junwei Liang"
+      ],
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11127910",
+      "arxiv": "https://arxiv.org/abs/2409.13244",
+      "project": "https://zeying-gong.github.io/projects/falcon/",
+      "code": "https://github.com/Zeying-Gong/Falcon",
+      "image": "assets/images/publications/falcon.png",
+      "image_alt": "From Cognition to Precognition: A Future-Aware Framework for Social Navigation — research overview",
+      "image_source": "https://zeying-gong.github.io/projects/falcon/architecture.png",
+      "image_source_page": "https://zeying-gong.github.io/projects/falcon/"
+    },
+    {
+      "id": "contrastive-imitation",
+      "year": 2024,
+      "venue": "CoRL",
+      "status": "Published",
+      "title": "Contrastive Imitation Learning for Language-guided Multi-Task Robotic Manipulation",
+      "authors": [
+        "Teli Ma",
+        "Jiaming Zhou",
+        "Zifan Wang",
+        "Ronghe Qiu",
+        "Junwei Liang"
+      ],
+      "url": "https://proceedings.mlr.press/v270/ma25a.html",
+      "arxiv": "https://arxiv.org/abs/2406.09738",
+      "project": "https://teleema.github.io/projects/Sigma_Agent/",
+      "code": "https://github.com/TeleeMa/Sigma-Agent",
+      "image": "assets/images/publications/sigma-agent.png",
+      "image_alt": "Contrastive Imitation Learning for Language-guided Multi-Task Robotic Manipulation — research overview",
+      "image_source": "https://teleema.github.io/projects/Sigma_Agent/imgs/pipeline.png",
+      "image_source_page": "https://teleema.github.io/projects/Sigma_Agent/"
+    },
+    {
+      "id": "semantic-learning",
+      "year": 2024,
+      "venue": "ECCV",
+      "status": "Published",
+      "title": "Prioritized Semantic Learning for Zero-shot Instance Navigation",
+      "authors": [
+        "Xinyu Sun",
+        "Lizhao Liu",
+        "Hongyan Zhi",
+        "Ronghe Qiu",
+        "Junwei Liang"
+      ],
+      "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/1872_ECCV_2024_paper.php",
+      "arxiv": "https://arxiv.org/abs/2403.11650",
+      "project": null,
+      "code": "https://github.com/XinyuSun/PSL-InstanceNav",
+      "image": "assets/images/publications/psl-instancenav.png",
+      "image_alt": "Prioritized Semantic Learning for Zero-shot Instance Navigation — research overview",
+      "image_source": "https://raw.githubusercontent.com/XinyuSun/PSL-InstanceNav/master/images/overview.png",
+      "image_source_page": "https://github.com/XinyuSun/PSL-InstanceNav"
+    }
+  ],
+  "education": [
+    {
+      "dates": "Sep 2024 — Present",
+      "title": "Ph.D. in Artificial Intelligence",
+      "organization": "Hong Kong University of Science and Technology (Guangzhou)",
+      "location": "Guangzhou, China"
+    },
+    {
+      "dates": "Sep 2022 — Sep 2024",
+      "title": "M.Phil. in Artificial Intelligence",
+      "organization": "Hong Kong University of Science and Technology (Guangzhou)",
+      "location": "Guangzhou, China"
+    },
+    {
+      "dates": "Sep 2013 — Jul 2017",
+      "title": "Bachelor of Finance",
+      "organization": "Sun Yat-Sen University",
+      "location": "Guangzhou, China"
+    }
+  ],
+  "projects": [
+    {
+      "dates": "Apr 2025 — Dec 2025",
+      "title": "Agentic Robot Tour Guide",
+      "tools": [
+        "TTS",
+        "Scene graphs",
+        "VLM reasoning"
+      ],
+      "details": [
+        "Developed automated mapping and relocalization using point cloud features for navigation in dynamic indoor environments.",
+        "Designed a skill-based agent framework in which a VLM calls navigation, speech, and gesture actions in response to user commands.",
+        "Enabled multimodal interaction through real-time text-to-speech and internet-connected knowledge retrieval."
+      ]
+    },
+    {
+      "dates": "Mar 2024 — Sep 2024",
+      "title": "Multi-Floor Robot Navigation",
+      "tools": [
+        "SLAM",
+        "Object detection",
+        "VLM reasoning"
+      ],
+      "details": [
+        "Deployed the VLFM algorithm on Unitree Go2, bridging the simulation-to-reality gap for mapping and path planning.",
+        "Integrated navigation and elevator manipulation into a unified pipeline."
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "dates": "Oct 2019 — Apr 2021",
+      "title": "Project Manager",
+      "organization": "Jinshi Capital",
+      "location": "Guangzhou, China",
+      "details": [
+        "Led a team providing U.S. capital market IPO services, including reporting, internal control examination, and operating results analysis.",
+        "Provided financial due diligence for acquisitions and investments, and offered investment advice.",
+        "Managed client relationships and expanded the client base."
+      ]
+    },
+    {
+      "dates": "Oct 2017 — Oct 2019",
+      "title": "Senior Auditor",
+      "organization": "PricewaterhouseCoopers",
+      "location": "Guangzhou, China",
+      "details": [
+        "Provided audit services for clients listed in different capital markets under tight schedules.",
+        "Identified significant audit risks and designed procedures to address them."
+      ]
+    }
+  ],
+  "award": {
+    "year": "2023",
+    "title": "Honorable Award, Robothon Grand Challenge",
+    "organization": "Automatica",
+    "description": "Recognized for robotic manipulation among 54 teams worldwide, demonstrating robot control, perception, and task execution."
+  },
+  "certifications": [
+    {
+      "year": "2018",
+      "title": "Chinese Certified Public Accountant (CPA)",
+      "description": "Passed all six exams of the CPA Professional Stage within one year."
+    },
+    {
+      "year": "2016",
+      "title": "Legal Professional Qualification Certificate",
+      "description": "With no prior legal background, I passed the National Judicial Examination after 100 days of self-study."
+    }
+  ],
+  "hiking": [
+    {
+      "id": "bogda",
+      "title": "Bogda Grand Circuit",
+      "date": "2025",
+      "text": "Beauty after wind and snow. Going through hardship together can change the way people relate to one another.",
+      "image": "assets/images/beyond/bogda.jpg",
+      "alt": "Bogda Grand Circuit hike",
+      "image_source": "photo/博格达.JPG"
+    },
+    {
+      "id": "meili",
+      "title": "Meili North Slope",
+      "date": "2024",
+      "text": "A contemplative journey. At altitude, oxygen deprivation briefly had me convinced I had grasped the meaning of life.",
+      "image": "assets/images/beyond/meili.jpg",
+      "alt": "Meili North Slope hike",
+      "image_source": "photo/梅里北坡.JPG"
+    },
+    {
+      "id": "tmb",
+      "title": "TMB · Tour du Mont Blanc",
+      "date": "2023",
+      "text": "The Alps of my childhood imagination, made real. A journey that changed the course of my life, like the flutter of a butterfly’s wings.",
+      "image": "assets/images/beyond/tmb.jpg",
+      "alt": "Tour du Mont Blanc hike",
+      "image_source": "photo/TMB.JPG"
+    },
+    {
+      "id": "maclehose",
+      "title": "MacLehose Trail",
+      "date": "",
+      "text": "100 km between sea views and the city, walking and talking together late into the night.",
+      "image": "assets/images/beyond/maclehose.jpg",
+      "alt": "MacLehose Trail hike",
+      "image_source": "photo/麦理浩径.heic.JPG"
+    },
+    {
+      "id": "wusun-kalajun",
+      "title": "Wusun Trail & Kalajun Grasslands",
+      "date": "2022",
+      "text": "Following an ancient trail across the grasslands, finding our way safely through unexpected danger.",
+      "image": "assets/images/beyond/wusun-kalajun.jpg",
+      "alt": "Wusun Trail and Kalajun Grasslands hike",
+      "image_source": "photo/乌孙.HEIC.HEIC.JPG"
+    },
+    {
+      "id": "chuandiding",
+      "title": "Chuandiding",
+      "date": "",
+      "text": "Two days, 48 km, 5,000 m of ascent. Hell for the legs; paradise for the eyes.",
+      "image": "assets/images/beyond/chuandiding.jpg",
+      "alt": "Chuandiding hike",
+      "image_source": "photo/船底顶.HEIC.HEIC.JPG"
+    }
+  ],
+  "sports": [
+    {
+      "id": "swimming",
+      "title": "Swimming",
+      "date": "",
+      "text": "",
+      "image": "assets/images/beyond/swimming.jpg",
+      "alt": "Swimming",
+      "image_source": "photo/游泳.JPG"
+    },
+    {
+      "id": "badminton",
+      "title": "Badminton",
+      "date": "",
+      "text": "",
+      "image": "assets/images/beyond/badminton.jpg",
+      "alt": "Badminton",
+      "image_source": "photo/羽毛球.jpg",
+      "image_fit": "contain"
+    },
+    {
+      "id": "cycling",
+      "title": "Cycling",
+      "date": "",
+      "text": "",
+      "image": "assets/images/beyond/cycling.jpg",
+      "alt": "Cycling",
+      "image_source": "photo/骑行.HEIC.JPG"
+    },
+    {
+      "id": "running",
+      "title": "Running",
+      "date": "",
+      "text": "",
+      "image": "assets/images/beyond/running.jpg",
+      "alt": "Running",
+      "image_source": "photo/跑步.HEIC.HEIC.JPG"
+    }
+  ],
+  "updated": "September 2026",
+  "draft": false,
+  "author_names": [
+    "Ronghe Qiu"
+  ],
+  "short_role": "Ph.D. Candidate",
+  "meditation": [
+    "Since high school, I have been drawn to Zen, Indian yoga, and the exploration of superconscious states. The ideas of Jiddu Krishnamurti and Swami Vivekananda have had a lasting influence on me.",
+    "For me, studying AI and practicing meditation are both ways of better understanding what it means to be human."
+  ],
+  "background": "I received my bachelor's degree in Finance from Sun Yat-sen University and worked in finance for four years, primarily advising companies on U.S. IPOs.",
+  "motivation": "Inspired by the belief that technology can change the world for the better, I transitioned to AI research. I hope to help build a future where more people can live in peace and happiness.",
+  "supervisor": {
+    "name": "Junwei Liang",
+    "url": "https://junweiliang.me/"
+  }
+}
