@@ -99,6 +99,9 @@ def publication_rows():
 def research():
     total = len(DATA['publications'])
     bio = e(DATA['bio']).replace(e(DATA['supervisor']['name']), link(DATA['supervisor']['url'], DATA['supervisor']['name'], external=True), 1)
+    bio = bio.replace(e(DATA['co_supervisor']['name']), link(DATA['co_supervisor']['url'], DATA['co_supervisor']['name'], external=True), 1)
+    bio = bio.replace(e(DATA['institution']), link(DATA['institution_url'], DATA['institution'], external=True), 1)
+    background = e(DATA['background']).replace('Sun Yat-sen University', link(DATA['undergraduate_url'], 'Sun Yat-sen University', external=True), 1)
     tags = ''.join(f'<li>{e(item)}</li>' for item in DATA["interests"])
     news = ''.join(f'<li><span class="news-date">{e(item["date"])}</span><p>{e(item["text"])}</p></li>' for item in DATA["news"])
     if DATA["portrait"]:
@@ -111,7 +114,7 @@ def research():
         <h1 id="name">{e(DATA['name'])}</h1>
         <p class="role-line">{e(DATA['short_role'])} <span>·</span> HKUST (Guangzhou)</p>
         <p class="bio">{bio}</p>
-        <p class="bio">{e(DATA['background'])}</p>
+        <p class="bio">{background}</p>
         <p class="bio">{e(DATA['motivation'])}</p>
         <ul class="interest-list" aria-label="Research interests">{tags}</ul>
         <div class="intro-links">{link('mailto:' + DATA['email'], 'Email ↗')}{link(DATA['github'], 'GitHub ↗', external=True)}{link('resume.html', 'Resume ↗')}</div>
@@ -134,7 +137,7 @@ def bullets(items):
 
 def education_entries():
     return ''.join(f'''<article class="resume-entry"><span class="entry-date">{e(item['dates'])}</span>
-        <h3>{e(item['title'])}</h3><p class="organization">{e(item['organization'])}</p>
+        <h3>{e(item['title'])}</h3><p class="organization">{link(item.get('url'), item['organization'], external=True)}</p>
         <p class="entry-location">{e(item['location'])}</p></article>''' for item in DATA['education'])
 
 
@@ -146,12 +149,12 @@ def project_entries():
 
 def experience_entries():
     return ''.join(f'''<article class="resume-entry"><span class="entry-date">{e(item['dates'])}</span>
-        <h3>{e(item['title'])}</h3><p class="organization">{e(item['organization'])}{(' <span>· ' + e(item['location']) + '</span>') if item['location'] else ''}</p>
+        <h3>{e(item['title'])}</h3><p class="organization">{link(item.get('url'), item['organization'], external=True)}{(' <span>· ' + e(item['location']) + '</span>') if item['location'] else ''}</p>
         {bullets(item['details'])}</article>''' for item in DATA['experience'])
 
 
 def certification_entries():
-    return ''.join(f'<article class="resume-entry"><span class="entry-date">{e(item["year"])}</span><h3>{e(item["title"])}</h3><p class="certification-description">{e(item["description"])}</p></article>' for item in DATA['certifications'])
+    return ''.join(f'<article class="resume-entry"><span class="entry-date">{e(item["year"])}</span><h3>{link(item.get("url"), item["title"], external=True)}</h3><p class="certification-description">{e(item["description"])}</p></article>' for item in DATA['certifications'])
 
 
 def resume():
@@ -214,7 +217,7 @@ def contact():
         </a>
         <div class="contact-other"><span class="eyebrow">ELSEWHERE</span><div>
           {link(DATA['github'], 'GitHub ↗', external=True)}{link(DATA['linkedin'], 'LinkedIn ↗', external=True)}{link(DATA['lab'], 'Precognition ↗', external=True)}</div></div>
-        <p class="contact-location">{e(DATA['institution'])}<br>{e(DATA['location'])}</p>
+        <p class="contact-location">{link(DATA['institution_url'], DATA['institution'], external=True)}<br>{e(DATA['location'])}</p>
       </section>'''
     return page('contact', 'Contact', f'Contact {DATA["name"]} by email, GitHub, or LinkedIn.', body)
 

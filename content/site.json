@@ -11,7 +11,7 @@
   "cv": null,
   "portrait": "assets/images/portrait.jpg",
   "portrait_alt": "Portrait of Ronghe QIU",
-  "bio": "I am a Ph.D. candidate in Artificial Intelligence at the Hong Kong University of Science and Technology (Guangzhou), advised by Junwei Liang, who also supervised my M.Phil. research. My research focuses on embodied AI for long-horizon mobile manipulation. I am particularly interested in how robots can reason through complex tasks and generalize to new tasks and environments.",
+  "bio": "I am a Ph.D. candidate in Artificial Intelligence at the Hong Kong University of Science and Technology (Guangzhou), advised by Junwei Liang and co-supervised by Ying-Cong Chen. Junwei Liang also supervised my M.Phil. research. My research focuses on embodied AI for long-horizon mobile manipulation. I am particularly interested in how robots can reason through complex tasks and generalize to new tasks and environments.",
   "interests": [
     "Embodied agents",
     "Long-horizon mobile manipulation",
@@ -196,19 +196,22 @@
       "dates": "Sep 2024 — Present",
       "title": "Ph.D. in Artificial Intelligence",
       "organization": "Hong Kong University of Science and Technology (Guangzhou)",
-      "location": "Guangzhou, China"
+      "location": "Guangzhou, China",
+      "url": "https://www.hkust-gz.edu.cn/"
     },
     {
       "dates": "Sep 2022 — Sep 2024",
       "title": "M.Phil. in Artificial Intelligence",
       "organization": "Hong Kong University of Science and Technology (Guangzhou)",
-      "location": "Guangzhou, China"
+      "location": "Guangzhou, China",
+      "url": "https://www.hkust-gz.edu.cn/"
     },
     {
       "dates": "Sep 2013 — Jul 2017",
       "title": "Bachelor of Finance",
       "organization": "Sun Yat-Sen University",
-      "location": "Guangzhou, China"
+      "location": "Guangzhou, China",
+      "url": "https://www.sysu.edu.cn/sysuen/"
     }
   ],
   "projects": [
@@ -260,7 +263,8 @@
       "details": [
         "Provided audit services for clients listed in different capital markets under tight schedules.",
         "Identified significant audit risks and designed procedures to address them."
-      ]
+      ],
+      "url": "https://www.pwccn.com/en.html"
     }
   ],
   "award": {
@@ -273,12 +277,14 @@
     {
       "year": "2018",
       "title": "Chinese Certified Public Accountant (CPA)",
-      "description": "Passed all six exams of the CPA Professional Stage within one year."
+      "description": "Passed all six exams of the CPA Professional Stage within one year.",
+      "url": "https://www.cicpa.org.cn/ztzl1/exam/"
     },
     {
       "year": "2016",
       "title": "Legal Professional Qualification Certificate",
-      "description": "With no prior legal background, I passed the National Judicial Examination after 100 days of self-study."
+      "description": "With no prior legal background, I passed the National Judicial Examination after 100 days of self-study.",
+      "url": "https://www.chinalaw.gov.cn/pub/sfbgw/jgsz/jgszzsdw/zsdwgjsfkszx/index.html"
     }
   ],
   "hiking": [
@@ -391,5 +397,11 @@
   "supervisor": {
     "name": "Junwei Liang",
     "url": "https://junweiliang.me/"
+  },
+  "institution_url": "https://www.hkust-gz.edu.cn/",
+  "undergraduate_url": "https://www.sysu.edu.cn/sysuen/",
+  "co_supervisor": {
+    "name": "Ying-Cong Chen",
+    "url": "https://www.yingcong.me/"
   }
 }
