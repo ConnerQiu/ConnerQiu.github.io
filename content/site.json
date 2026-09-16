@@ -11,7 +11,7 @@
   "cv": null,
   "portrait": "assets/images/portrait.jpg",
   "portrait_alt": "Portrait of Ronghe QIU",
-  "bio": "I am a Ph.D. candidate in Artificial Intelligence at the Hong Kong University of Science and Technology (Guangzhou), advised by Junwei Liang and co-supervised by Ying-Cong Chen. Junwei Liang also supervised my M.Phil. research. My research focuses on embodied AI for long-horizon mobile manipulation. I am particularly interested in how robots can reason through complex tasks and generalize to new tasks and environments.",
+  "bio": "I am a Ph.D. candidate in Artificial Intelligence at the Hong Kong University of Science and Technology (Guangzhou), advised by Junwei Liang and co-supervised by Ying-Cong Chen. I obtained my M.Phil. degree in Artificial Intelligence from the same university in 2024 under the supervision of Junwei Liang. My research focuses on embodied AI for long-horizon mobile manipulation. I am particularly interested in how robots can reason through complex tasks and generalize to new tasks and environments.",
   "interests": [
     "Embodied agents",
     "Long-horizon mobile manipulation",
@@ -392,7 +392,7 @@
     "Since high school, I have been drawn to Zen, Indian yoga, and the exploration of superconscious states. The ideas of Jiddu Krishnamurti and Swami Vivekananda have had a lasting influence on me.",
     "For me, studying AI and practicing meditation are both ways of better understanding what it means to be human."
   ],
-  "background": "I received my bachelor's degree in Finance from Sun Yat-sen University and worked in finance for four years, primarily advising companies on U.S. IPOs.",
+  "background": "I received my bachelor's degree in Finance from Sun Yat-sen University and worked in finance for four years, primarily advising companies on IPOs in the U.S. market.",
   "motivation": "Inspired by the belief that technology can change the world for the better, I transitioned to AI research. I hope to help build a future where more people can live in peace and happiness.",
   "supervisor": {
     "name": "Junwei Liang",
@@ -403,5 +403,6 @@
   "co_supervisor": {
     "name": "Ying-Cong Chen",
     "url": "https://www.yingcong.me/"
-  }
+  },
+  "google_scholar": "https://scholar.google.com/citations?user=QOwOHZMAAAAJ&hl=en"
 }

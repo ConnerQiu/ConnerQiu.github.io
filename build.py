@@ -56,7 +56,7 @@ def page(key, title, description, body):
       </div>
       <nav class="footer-navigation" aria-label="Footer navigation"><span class="footer-label">Explore</span><div class="footer-links">{nav}</div></nav>
       <nav class="footer-connect" aria-label="Contact and social links"><span class="footer-label">Connect</span><div class="footer-social">
-        {link('mailto:' + DATA['email'], 'Email ↗')}{link(DATA['github'], 'GitHub ↗', external=True)}{link(DATA['linkedin'], 'LinkedIn ↗', external=True)}</div></nav>
+        {link('mailto:' + DATA['email'], 'Email ↗')}{link(DATA['github'], 'GitHub ↗', external=True)}{link(DATA['linkedin'], 'LinkedIn ↗', external=True)}{link(DATA['google_scholar'], 'Google Scholar ↗', external=True)}</div></nav>
     </div>
     <div class="footer-bottom"><a href="#main">Back to top ↑</a></div>
   </footer>
@@ -117,7 +117,7 @@ def research():
         <p class="bio">{background}</p>
         <p class="bio">{e(DATA['motivation'])}</p>
         <ul class="interest-list" aria-label="Research interests">{tags}</ul>
-        <div class="intro-links">{link('mailto:' + DATA['email'], 'Email ↗')}{link(DATA['github'], 'GitHub ↗', external=True)}{link('resume.html', 'Resume ↗')}</div>
+        <div class="intro-links">{link('contact.html#contact-title', 'Email ↗')}{link(DATA['google_scholar'], 'Google Scholar ↗', external=True)}{link(DATA['github'], 'GitHub ↗', external=True)}{link('resume.html', 'Resume ↗')}</div>
       </div>
       <figure class="portrait">{portrait}<figcaption>{e(DATA['location'])}</figcaption></figure>
     </section>
@@ -216,7 +216,7 @@ def contact():
           <span class="contact-email-text"><span class="contact-email-label">Email me</span><span class="contact-email-address">{e(DATA['email'])}</span></span>
         </a>
         <div class="contact-other"><span class="eyebrow">ELSEWHERE</span><div>
-          {link(DATA['github'], 'GitHub ↗', external=True)}{link(DATA['linkedin'], 'LinkedIn ↗', external=True)}{link(DATA['lab'], 'Precognition ↗', external=True)}</div></div>
+          {link(DATA['github'], 'GitHub ↗', external=True)}{link(DATA['linkedin'], 'LinkedIn ↗', external=True)}{link(DATA['google_scholar'], 'Google Scholar ↗', external=True)}{link(DATA['lab'], 'Precognition ↗', external=True)}</div></div>
         <p class="contact-location">{link(DATA['institution_url'], DATA['institution'], external=True)}<br>{e(DATA['location'])}</p>
       </section>'''
     return page('contact', 'Contact', f'Contact {DATA["name"]} by email, GitHub, or LinkedIn.', body)
